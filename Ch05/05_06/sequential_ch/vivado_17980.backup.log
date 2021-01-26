@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 21 20:46:46 2019
+# Process ID: 17980
+# Current directory: C:/Verilog/05_06/sequential_ch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5792 C:\Verilog\05_06\sequential_ch\sequential_ch.xpr
+# Log file: C:/Verilog/05_06/sequential_ch/vivado.log
+# Journal file: C:/Verilog/05_06/sequential_ch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/05_06/sequential_ch/sequential_ch.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 911.441 ; gain = 60.875
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov 21 20:56:54 2019] Launched synth_1...
+Run output will be captured here: C:/Verilog/05_06/sequential_ch/sequential_ch.runs/synth_1/runme.log
+[Thu Nov 21 20:56:54 2019] Launched impl_1...
+Run output will be captured here: C:/Verilog/05_06/sequential_ch/sequential_ch.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov 21 20:58:14 2019] Launched synth_1...
+Run output will be captured here: C:/Verilog/05_06/sequential_ch/sequential_ch.runs/synth_1/runme.log
+[Thu Nov 21 20:58:14 2019] Launched impl_1...
+Run output will be captured here: C:/Verilog/05_06/sequential_ch/sequential_ch.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 20:58:39 2019...

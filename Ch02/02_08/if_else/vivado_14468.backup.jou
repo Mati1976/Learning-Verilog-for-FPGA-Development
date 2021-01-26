@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov  8 19:06:40 2019
+# Process ID: 14468
+# Current directory: C:/Verilog/02_08/if_else
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5640 C:\Verilog\02_08\if_else\if_else.xpr
+# Log file: C:/Verilog/02_08/if_else/vivado.log
+# Journal file: C:/Verilog/02_08/if_else\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_08/if_else/if_else.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+close_project
+open_project C:/Verilog/02_09/case/case.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1

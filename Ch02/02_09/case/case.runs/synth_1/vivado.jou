@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov  8 19:17:03 2019
+# Process ID: 924
+# Current directory: C:/Verilog/02_09/case/case.runs/synth_1
+# Command line: vivado.exe -log demux_1_to_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source demux_1_to_4.tcl
+# Log file: C:/Verilog/02_09/case/case.runs/synth_1/demux_1_to_4.vds
+# Journal file: C:/Verilog/02_09/case/case.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source demux_1_to_4.tcl -notrace

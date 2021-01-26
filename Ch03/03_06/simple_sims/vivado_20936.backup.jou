@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  3 19:24:26 2019
+# Process ID: 20936
+# Current directory: C:/Verilog/03_05/simple_sims
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13484 C:\Verilog\03_05\simple_sims\simple_sims.xpr
+# Log file: C:/Verilog/03_05/simple_sims/vivado.log
+# Journal file: C:/Verilog/03_05/simple_sims\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/03_05/simple_sims/simple_sims.xpr
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_files -from_files C:/Verilog/03_05/simple_sims/simple_sims.srcs/sim_1/new/mux_demux_TB.v -to_files C:/Verilog/03_05/simple_sims/simple_sims.srcs/sim_1/new/sim_mux_demux.v -filesets [get_filesets *]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Verilog/03_05/simple_sims/sim_mux_demux_behav.wcfg
+source mux_demux_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/03_05/simple_sims/sim_mux_demux_behav.wcfg
+source mux_demux_TB.tcl
+export_ip_user_files -of_objects  [get_files C:/Verilog/03_05/simple_sims/sim_mux_demux_behav.wcfg] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Verilog/03_05/simple_sims/sim_mux_demux_behav.wcfg
+remove_files  -fileset sim_1 C:/Verilog/03_05/simple_sims/sim_mux_demux_behav.wcfg
+close_sim
+launch_simulation
+source mux_demux_TB.tcl
+save_wave_config {C:/Verilog/03_05/simple_sims/mux_demux_TB_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Verilog/03_05/simple_sims/mux_demux_TB_behav.wcfg
+set_property xsim.view {C:/Verilog/03_05/simple_sims/sim_mux_demux_behav.wcfg C:/Verilog/03_05/simple_sims/mux_demux_TB_behav.wcfg} [get_filesets sim_1]
+close_sim

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 21 20:04:57 2019
+# Process ID: 20104
+# Current directory: C:/Verilog/03_06/simple_sims
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22236 C:\Verilog\03_06\simple_sims\simple_sims.xpr
+# Log file: C:/Verilog/03_06/simple_sims/vivado.log
+# Journal file: C:/Verilog/03_06/simple_sims\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/03_06/simple_sims/simple_sims.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Verilog/03_06/simple_sims/mux_demux_TB_behav.wcfg
+source mux_demux_TB.tcl
+close_sim

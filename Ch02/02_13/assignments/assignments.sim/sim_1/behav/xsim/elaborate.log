@@ -1,0 +1,15 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto e3b8c01de9e54006b18ea56031ed33a4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot assignments_TB_behav xil_defaultlib.assignments_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Verilog/05_03/assignments/assignments.srcs/sources_1/new/assignments.v" Line 1. Module assignments doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.assignments
+Compiling module xil_defaultlib.shift_left
+Compiling module xil_defaultlib.assignments_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot assignments_TB_behav

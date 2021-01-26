@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov  8 12:16:06 2019
+# Process ID: 16828
+# Current directory: C:/Verilog/02_09/case
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16660 C:\Verilog\02_09\case\case.xpr
+# Log file: C:/Verilog/02_09/case/vivado.log
+# Journal file: C:/Verilog/02_09/case\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_09/case/case.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+close_design
+close_project
+open_project C:/Verilog/02_15/verilog_ch/verilog_ch.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1

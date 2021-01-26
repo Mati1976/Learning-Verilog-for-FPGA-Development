@@ -1,0 +1,11 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+The value of a has changed to  10
+The value of b is   1
+The value of a has changed to  20
+The value of b is   2
+The value of a has changed to  30
+The value of a has changed to  40
+The value of b is   4
+The value of a has changed to  50
+$stop called at time : 50 ns : File "C:/Verilog/03_08/display/display.srcs/sim_1/new/sim_display.v" Line 37

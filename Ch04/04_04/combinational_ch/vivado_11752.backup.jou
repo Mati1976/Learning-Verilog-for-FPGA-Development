@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  5 19:48:31 2019
+# Process ID: 11752
+# Current directory: C:/Verilog/04_05/combinational_ch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17544 C:\Verilog\04_05\combinational_ch\combinational_ch.xpr
+# Log file: C:/Verilog/04_05/combinational_ch/vivado.log
+# Journal file: C:/Verilog/04_05/combinational_ch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/04_05/combinational_ch/combinational_ch.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Verilog/04_05/combinational_ch/combinational_ch.srcs/constrs_1
+file mkdir C:/Verilog/04_05/combinational_ch/combinational_ch.srcs/constrs_1/new
+close [ open C:/Verilog/04_05/combinational_ch/combinational_ch.srcs/constrs_1/new/basys3.xdc w ]
+add_files -fileset constrs_1 C:/Verilog/04_05/combinational_ch/combinational_ch.srcs/constrs_1/new/basys3.xdc
+close [ open C:/Verilog/04_05/combinational_ch/combinational_ch.srcs/sources_1/new/board_ALU.v w ]
+add_files C:/Verilog/04_05/combinational_ch/combinational_ch.srcs/sources_1/new/board_ALU.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Verilog/04_05/combinational_ch/combinational_ch.runs/impl_1/board_ALU.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Verilog/04_05/combinational_ch/combinational_ch.runs/impl_1/board_ALU.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Verilog/04_05/combinational_ch/combinational_ch.runs/impl_1/board_ALU.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Verilog/04_05/combinational_ch/combinational_ch.runs/impl_1/board_ALU.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Verilog/04_05/combinational_ch/combinational_ch.runs/impl_1/board_ALU.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Verilog/04_05/combinational_ch/combinational_ch.runs/impl_1/board_ALU.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

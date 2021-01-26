@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  3 19:11:03 2019
+# Process ID: 1512
+# Current directory: C:/Verilog/03_09/simulation_ch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7704 C:\Verilog\03_09\simulation_ch\simulation_ch.xpr
+# Log file: C:/Verilog/03_09/simulation_ch/vivado.log
+# Journal file: C:/Verilog/03_09/simulation_ch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/03_09/simulation_ch/simulation_ch.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Verilog/03_09/simulation_ch/simulation_ch.srcs/sim_1/new/sim_challenge.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Verilog/03_09/simulation_ch/simulation_ch.srcs/sim_1/new/sim_challenge.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Verilog/03_09/simulation_ch/simulation_ch.srcs/sim_1/new/triple_TB.v
+update_compile_order -fileset sim_1
+launch_simulation
+source triple_TB.tcl
+update_compile_order -fileset sim_1
+close_sim

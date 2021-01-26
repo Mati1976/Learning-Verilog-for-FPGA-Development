@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  5 22:14:05 2019
+# Process ID: 24396
+# Current directory: C:/Verilog/05_04/shift_reg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1912 C:\Verilog\05_04\shift_reg\shift_reg.xpr
+# Log file: C:/Verilog/05_04/shift_reg/vivado.log
+# Journal file: C:/Verilog/05_04/shift_reg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/05_04/shift_reg/shift_reg.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Verilog/05_04/shift_reg/shift_left_TB_behav.wcfg
+source shift_left_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/05_04/shift_reg/shift_left_TB_behav.wcfg
+source shift_left_TB.tcl
+close_sim
+close_project
+open_project C:/Verilog/05_07/sequential_ch/sequential_ch.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Verilog/05_06/sequential_ch/sequential_ch.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Verilog/05_06/sequential_ch/clock_divider_TB_behav.wcfg
+source clock_divider_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/05_06/sequential_ch/clock_divider_TB_behav.wcfg
+source clock_divider_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/05_06/sequential_ch/clock_divider_TB_behav.wcfg
+source clock_divider_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/05_06/sequential_ch/clock_divider_TB_behav.wcfg
+source clock_divider_TB.tcl
+close_sim

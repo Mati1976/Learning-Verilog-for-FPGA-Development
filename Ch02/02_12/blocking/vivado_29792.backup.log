@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov  7 20:59:02 2019
+# Process ID: 29792
+# Current directory: C:/Verilog/02_12/blocking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31336 C:\Verilog\02_12\blocking\blocking.xpr
+# Log file: C:/Verilog/02_12/blocking/vivado.log
+# Journal file: C:/Verilog/02_12/blocking\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_12/blocking/blocking.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Verilog/04_02/blocking' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 875.105 ; gain = 34.234
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: logic
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1103.184 ; gain = 177.395
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'logic' [C:/Verilog/02_12/blocking/blocking.srcs/sources_1/new/logic.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'logic' (1#1) [C:/Verilog/02_12/blocking/blocking.srcs/sources_1/new/logic.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1146.863 ; gain = 221.074
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1146.863 ; gain = 221.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1146.863 ; gain = 221.074
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1201.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:33 ; elapsed = 00:00:32 . Memory (MB): peak = 1291.379 ; gain = 365.590
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1291.379 ; gain = 416.273
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 21:14:59 2019...

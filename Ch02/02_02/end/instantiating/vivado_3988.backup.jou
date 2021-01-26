@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov  9 21:25:42 2019
+# Process ID: 3988
+# Current directory: C:/Verilog/02_02/instantiating
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9160 C:\Verilog\02_02\instantiating\instantiating.xpr
+# Log file: C:/Verilog/02_02/instantiating/vivado.log
+# Journal file: C:/Verilog/02_02/instantiating\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_02/instantiating/instantiating.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Verilog/02_02/instantiating/sim_full_adder_behav.wcfg
+source sim_full_adder.tcl
+close_sim

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 19 18:31:28 2019
+# Process ID: 4452
+# Current directory: C:/Verilog/01_04/gate_level
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent104 C:\Verilog\01_04\gate_level\gate_level.xpr
+# Log file: C:/Verilog/01_04/gate_level/vivado.log
+# Journal file: C:/Verilog/01_04/gate_level\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/01_04/gate_level/gate_level.xpr
+launch_simulation
+open_wave_config C:/Verilog/01_04/gate_level/gate_level_simulation_behav.wcfg
+source gate_level_simulation.tcl
+close_sim

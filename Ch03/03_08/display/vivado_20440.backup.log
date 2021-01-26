@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  3 19:19:35 2019
+# Process ID: 20440
+# Current directory: C:/Verilog/03_07/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21848 C:\Verilog\03_07\display\display.xpr
+# Log file: C:/Verilog/03_07/display/vivado.log
+# Journal file: C:/Verilog/03_07/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/03_07/display/display.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'V:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'v:/vivado/Arm_ipi_repository'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 964.898 ; gain = 32.879
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  3 19:21:04 2019...

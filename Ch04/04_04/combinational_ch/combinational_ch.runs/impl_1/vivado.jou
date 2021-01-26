@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 21 22:14:53 2019
+# Process ID: 20220
+# Current directory: C:/Verilog/04_04/combinational_ch/combinational_ch.runs/impl_1
+# Command line: vivado.exe -log board_ALU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source board_ALU.tcl -notrace
+# Log file: C:/Verilog/04_04/combinational_ch/combinational_ch.runs/impl_1/board_ALU.vdi
+# Journal file: C:/Verilog/04_04/combinational_ch/combinational_ch.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source board_ALU.tcl -notrace

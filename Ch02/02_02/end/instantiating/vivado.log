@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 21 19:35:23 2019
+# Process ID: 24216
+# Current directory: C:/Verilog/02_02/end/instantiating
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23136 C:\Verilog\02_02\end\instantiating\instantiating.xpr
+# Log file: C:/Verilog/02_02/end/instantiating/vivado.log
+# Journal file: C:/Verilog/02_02/end/instantiating\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_02/end/instantiating/instantiating.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Verilog/02_02/before/instantiating' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'V:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'v:/vivado/Arm_ipi_repository'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 649.957 ; gain = 42.688
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 19:47:59 2019...

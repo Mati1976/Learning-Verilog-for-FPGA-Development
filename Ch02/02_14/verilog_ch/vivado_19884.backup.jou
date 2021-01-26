@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  3 19:34:51 2019
+# Process ID: 19884
+# Current directory: C:/Verilog/02_09/verilog_ch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14908 C:\Verilog\02_09\verilog_ch\verilog_ch.xpr
+# Log file: C:/Verilog/02_09/verilog_ch/vivado.log
+# Journal file: C:/Verilog/02_09/verilog_ch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_09/verilog_ch/verilog_ch.xpr
+update_compile_order -fileset sources_1
+update_files -from_files C:/Verilog/02_09/verilog_ch/verilog_ch.srcs/sim_1/new/is_prime_TB.v -to_files C:/Verilog/02_09/verilog_ch/verilog_ch.srcs/sim_1/new/sim_is_prime.v -filesets [get_filesets *]
+launch_simulation
+source is_prime_TB.tcl
+close_sim

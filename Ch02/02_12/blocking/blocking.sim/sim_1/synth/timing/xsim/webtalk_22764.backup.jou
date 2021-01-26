@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  3 15:24:12 2019
+# Process ID: 22764
+# Current directory: C:/Verilog/04_02/blocking/blocking.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Verilog/04_02/blocking/blocking.sim/sim_1/synth/timing/xsim/xsim.dir/sim_logic_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Verilog/04_02/blocking/blocking.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: C:/Verilog/04_02/blocking/blocking.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Verilog/04_02/blocking/blocking.sim/sim_1/synth/timing/xsim/xsim.dir/sim_logic_time_synth/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 21 21:25:05 2019
+# Process ID: 19900
+# Current directory: C:/Verilog/03_08/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22616 C:\Verilog\03_08\display\display.xpr
+# Log file: C:/Verilog/03_08/display/vivado.log
+# Journal file: C:/Verilog/03_08/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/03_08/display/display.xpr
+launch_simulation
+source sim_display.tcl
+close_sim

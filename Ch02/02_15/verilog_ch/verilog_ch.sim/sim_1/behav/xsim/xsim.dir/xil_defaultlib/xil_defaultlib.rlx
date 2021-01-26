@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Verilog/02_15/verilog_ch/verilog_ch.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sim_1/new/is_prime_TB.v,1573350646,verilog,,,,is_prime_TB,,,,,,,,
+C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sources_1/new/is_prime_boolean.v,1573350140,verilog,,C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sim_1/new/is_prime_TB.v,,is_prime_boolean,,,,,,,,
+C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sources_1/new/is_prime_gates.v,1573351332,verilog,,C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sim_1/new/is_prime_TB.v,,is_prime_gates,,,,,,,,
+C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sources_1/new/is_prime_procedural.v,1573350528,verilog,,C:/Verilog/02_15/verilog_ch/verilog_ch.srcs/sim_1/new/is_prime_TB.v,,is_prime_procedural,,,,,,,,

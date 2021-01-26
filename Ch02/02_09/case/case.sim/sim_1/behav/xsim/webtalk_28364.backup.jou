@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov  7 19:32:50 2019
+# Process ID: 28364
+# Current directory: C:/Verilog/02_09/case/case.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Verilog/02_09/case/case.sim/sim_1/behav/xsim/xsim.dir/demux_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Verilog/02_09/case/case.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Verilog/02_09/case/case.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Verilog/02_09/case/case.sim/sim_1/behav/xsim/xsim.dir/demux_TB_behav/webtalk/xsim_webtalk.tcl -notrace

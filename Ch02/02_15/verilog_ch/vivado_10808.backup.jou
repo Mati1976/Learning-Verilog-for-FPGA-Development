@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov  9 19:44:21 2019
+# Process ID: 10808
+# Current directory: C:/Verilog/02_15/verilog_ch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12444 C:\Verilog\02_15\verilog_ch\verilog_ch.xpr
+# Log file: C:/Verilog/02_15/verilog_ch/vivado.log
+# Journal file: C:/Verilog/02_15/verilog_ch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/02_15/verilog_ch/verilog_ch.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source is_prime_TB.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source is_prime_TB.tcl
+save_wave_config {C:/Verilog/02_15/verilog_ch/is_prime_TB_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Verilog/02_15/verilog_ch/is_prime_TB_behav.wcfg
+set_property xsim.view C:/Verilog/02_15/verilog_ch/is_prime_TB_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/02_15/verilog_ch/is_prime_TB_behav.wcfg
+source is_prime_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/02_15/verilog_ch/is_prime_TB_behav.wcfg
+source is_prime_TB.tcl
+close_sim

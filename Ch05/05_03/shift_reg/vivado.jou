@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 21 21:28:00 2019
+# Process ID: 17388
+# Current directory: C:/Verilog/05_03/shift_reg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19684 C:\Verilog\05_03\shift_reg\shift_reg.xpr
+# Log file: C:/Verilog/05_03/shift_reg/vivado.log
+# Journal file: C:/Verilog/05_03/shift_reg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Verilog/05_03/shift_reg/shift_reg.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Verilog/05_03/shift_reg/shift_left_TB_behav.wcfg
+source shift_left_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Verilog/05_03/shift_reg/shift_left_TB_behav.wcfg
+source shift_left_TB.tcl
+close_sim

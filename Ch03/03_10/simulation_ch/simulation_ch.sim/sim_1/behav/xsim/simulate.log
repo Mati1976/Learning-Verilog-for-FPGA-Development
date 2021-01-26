@@ -1,0 +1,21 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+
+The triple of  0 is  0.
+
+
+The triple of  1 is  3.
+
+
+The triple of  3 is  9.
+
+
+The triple of  5 is 15.
+
+
+The triple of 10 is 30.
+
+
+The triple of 15 is 45.
+
+$stop called at time : 60 ns : File "C:/Verilog/03_10/simulation_ch/simulation_ch.srcs/sim_1/new/triple_TB.v" Line 38

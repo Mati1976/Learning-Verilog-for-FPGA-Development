@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Verilog/02_02/before/instantiating/instantiating.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Verilog/02_02/before/instantiating/instantiating.srcs/sim_1/new/sim_full_adder.v,1572118026,verilog,,,,sim_full_adder,,,,,,,,
+C:/Verilog/02_02/before/instantiating/instantiating.srcs/sources_1/new/full_adder.v,1574212867,verilog,,C:/Verilog/02_02/before/instantiating/instantiating.srcs/sources_1/new/half_adder.v,,full_adder,,,,,,,,
+C:/Verilog/02_02/before/instantiating/instantiating.srcs/sources_1/new/half_adder.v,1571449808,verilog,,C:/Verilog/02_02/before/instantiating/instantiating.srcs/sim_1/new/sim_full_adder.v,,half_adder,,,,,,,,

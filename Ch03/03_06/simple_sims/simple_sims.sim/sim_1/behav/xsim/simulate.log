@@ -1,0 +1,3 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+$stop called at time : 40 us : File "C:/Verilog/03_06/simple_sims/simple_sims.srcs/sim_1/new/mux_demux_TB.v" Line 50

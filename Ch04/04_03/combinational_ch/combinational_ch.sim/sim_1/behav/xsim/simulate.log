@@ -1,0 +1,51 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+
+ 2 +  3 =   5
+
+
+ 3 +  4 =   7
+
+
+10 +  9 =  19
+
+
+15 + 15 =  30
+
+
+ 2 *  3 =   6
+
+
+ 3 *  4 =  12
+
+
+10 *  9 =  90
+
+
+15 * 15 = 225
+
+
+ 2 %  3 =   2
+
+
+ 3 %  4 =   3
+
+
+10 %  9 =   1
+
+
+15 % 15 =   0
+
+
+ 2 &  3 =   2
+
+
+ 3 &  4 =   0
+
+
+10 &  9 =   8
+
+
+15 & 15 =  15
+
+$stop called at time : 160 ns : File "C:/Verilog/04_03/combinational_ch/combinational_ch.srcs/sim_1/new/ALU_TB.v" Line 54
